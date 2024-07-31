@@ -5,85 +5,104 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sample Table</title>
     <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
         table {
-            width: 100%;
-            border-collapse: collapse;
+            width: 50%;
+            margin: auto;
+            border-collapse: separate;
+            border-spacing: 10px;
         }
         th, td {
-            border: 1px solid black;
             padding: 8px;
             text-align: center;
+            background-color: transparent;
+        }
+        th {
+            font-weight: bold;
         }
     </style>
 </head>
 <body>
-    <h1>Sample Table with 4 Columns and 10 Rows</h1>
+    <h1>Sample Table with Classes and IDs</h1>
     <table>
         <tr>
             <th>Number</th>
             <th>Name</th>
-            <th>Duration</th>
-            <th>Country</th>
+            <th>Position</th>
+            <th>Time</th>
+            <th>Land</th>
         </tr>
         <tr>
-            <td>1</td>
-            <td>John Doe</td>
-            <td>05:30:00</td>
-            <td>USA</td>
+            <td class="number" id="number-1">1</td>
+            <td class="name" id="name-1">John Doe</td>
+            <td class="position" id="position-1">Manager</td>
+            <td class="time" id="time-1">05:30:00</td>
+            <td class="land" id="land-1">USA</td>
         </tr>
         <tr>
-            <td>2</td>
-            <td>Jane Smith</td>
-            <td>06:45:00</td>
-            <td>UK</td>
+            <td class="number" id="number-2">2</td>
+            <td class="name" id="name-2">Jane Smith</td>
+            <td class="position" id="position-2">Engineer</td>
+            <td class="time" id="time-2">06:45:00</td>
+            <td class="land" id="land-2">UK</td>
         </tr>
         <tr>
-            <td>3</td>
-            <td>Jim Brown</td>
-            <td>07:20:00</td>
-            <td>GER</td>
+            <td class="number" id="number-3">3</td>
+            <td class="name" id="name-3">Jim Brown</td>
+            <td class="position" id="position-3">Developer</td>
+            <td class="time" id="time-3">07:20:00</td>
+            <td class="land" id="land-3">GER</td>
         </tr>
         <tr>
-            <td>4</td>
-            <td>Lisa White</td>
-            <td>08:10:00</td>
-            <td>FRA</td>
+            <td class="number" id="number-4">4</td>
+            <td class="name" id="name-4">Lisa White</td>
+            <td class="position" id="position-4">Designer</td>
+            <td class="time" id="time-4">08:10:00</td>
+            <td class="land" id="land-4">FRA</td>
         </tr>
         <tr>
-            <td>5</td>
-            <td>Michael Johnson</td>
-            <td>05:55:00</td>
-            <td>CAN</td>
+            <td class="number" id="number-5">5</td>
+            <td class="name" id="name-5">Michael Johnson</td>
+            <td class="position" id="position-5">Analyst</td>
+            <td class="time" id="time-5">05:55:00</td>
+            <td class="land" id="land-5">CAN</td>
         </tr>
         <tr>
-            <td>6</td>
-            <td>Emily Davis</td>
-            <td>06:15:00</td>
-            <td>AUS</td>
+            <td class="number" id="number-6">6</td>
+            <td class="name" id="name-6">Emily Davis</td>
+            <td class="position" id="position-6">Consultant</td>
+            <td class="time" id="time-6">06:15:00</td>
+            <td class="land" id="land-6">AUS</td>
         </tr>
         <tr>
-            <td>7</td>
-            <td>Chris Lee</td>
-            <td>09:30:00</td>
-            <td>IND</td>
+            <td class="number" id="number-7">7</td>
+            <td class="name" id="name-7">Chris Lee</td>
+            <td class="position" id="position-7">Project Lead</td>
+            <td class="time" id="time-7">09:30:00</td>
+            <td class="land" id="land-7">IND</td>
         </tr>
         <tr>
-            <td>8</td>
-            <td>Patricia Miller</td>
-            <td>07:45:00</td>
-            <td>JPN</td>
+            <td class="number" id="number-8">8</td>
+            <td class="name" id="name-8">Patricia Miller</td>
+            <td class="position" id="position-8">HR</td>
+            <td class="time" id="time-8">07:45:00</td>
+            <td class="land" id="land-8">JPN</td>
         </tr>
         <tr>
-            <td>9</td>
-            <td>Daniel Wilson</td>
-            <td>10:00:00</td>
-            <td>CHN</td>
+            <td class="number" id="number-9">9</td>
+            <td class="name" id="name-9">Daniel Wilson</td>
+            <td class="position" id="position-9">CTO</td>
+            <td class="time" id="time-9">10:00:00</td>
+            <td class="land" id="land-9">CHN</td>
         </tr>
         <tr>
-            <td>10</td>
-            <td>Jessica Taylor</td>
-            <td>08:25:00</td>
-            <td>BRA</td>
+            <td class="number" id="number-10">10</td>
+            <td class="name" id="name-10">Jessica Taylor</td>
+            <td class="position" id="position-10">CEO</td>
+            <td class="time" id="time-10">08:25:00</td>
+            <td class="land" id="land-10">BRA</td>
         </tr>
     </table>
 </body>
